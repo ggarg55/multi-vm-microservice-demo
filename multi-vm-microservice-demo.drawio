@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="qA0YXLOrptQt-7nri232">
+    <mxGraphModel dx="1389" dy="1961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dz8zNpMKoK4aglKRTuse-18" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="320" width="710" x="60" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="Dz8zNpMKoK4aglKRTuse-8" edge="1" parent="Dz8zNpMKoK4aglKRTuse-18" source="Dz8zNpMKoK4aglKRTuse-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Dz8zNpMKoK4aglKRTuse-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dz8zNpMKoK4aglKRTuse-2" parent="Dz8zNpMKoK4aglKRTuse-18" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;&amp;nbsp;Client VM&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;P: 192.168.100.10&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dz8zNpMKoK4aglKRTuse-9" edge="1" parent="Dz8zNpMKoK4aglKRTuse-18" source="Dz8zNpMKoK4aglKRTuse-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Dz8zNpMKoK4aglKRTuse-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dz8zNpMKoK4aglKRTuse-14" edge="1" parent="Dz8zNpMKoK4aglKRTuse-18" source="Dz8zNpMKoK4aglKRTuse-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="Dz8zNpMKoK4aglKRTuse-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dz8zNpMKoK4aglKRTuse-3" parent="Dz8zNpMKoK4aglKRTuse-18" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;API VM&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;Node.js + Express&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dz8zNpMKoK4aglKRTuse-4" parent="Dz8zNpMKoK4aglKRTuse-18" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;text-align: left;&quot;&gt;DB VM&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;MySQL Database&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dz8zNpMKoK4aglKRTuse-5" edge="1" parent="Dz8zNpMKoK4aglKRTuse-18" source="Dz8zNpMKoK4aglKRTuse-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="Dz8zNpMKoK4aglKRTuse-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Dz8zNpMKoK4aglKRTuse-7" parent="Dz8zNpMKoK4aglKRTuse-18" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-align: left;&quot;&gt;Network: 192.168.100.0/24 (Internal)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="230" x="255" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Dz8zNpMKoK4aglKRTuse-10" parent="Dz8zNpMKoK4aglKRTuse-18" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="http request" vertex="1">
+          <mxGeometry height="30" width="60" x="230" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dz8zNpMKoK4aglKRTuse-13" parent="Dz8zNpMKoK4aglKRTuse-18" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SQL&lt;div&gt;&amp;nbsp;Queries&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dz8zNpMKoK4aglKRTuse-15" parent="Dz8zNpMKoK4aglKRTuse-18" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="http&amp;nbsp;&lt;div&gt;response&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="230" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Dz8zNpMKoK4aglKRTuse-17" parent="Dz8zNpMKoK4aglKRTuse-18" style="whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="320" width="710" as="geometry" />
+        </mxCell>
+        <mxCell id="Dz8zNpMKoK4aglKRTuse-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=18;fontColor=light-dark(#3e70c1, #ededed);" value="Multi VM mico service Architecure" vertex="1">
+          <mxGeometry height="30" width="340" x="255" y="-80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
